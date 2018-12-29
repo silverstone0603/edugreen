@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: EDUGREEN_EDITOR - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "NDEBUG" /tlb "Release/EDUGREEN_EDITOR.tlb" /mktyplib203 /win32 "C:\Users\Ina\Desktop\C언어 프로젝트\EDUGREEN_EDITOR Ver 2.6\EDUGREEN_EDITOR.odl""
+Creating command line "rc.exe /l 0x412 /fo"Release/EDUGREEN_EDITOR.res" /i "Release" /d "NDEBUG" "C:\Users\Ina\Desktop\C언어 프로젝트\EDUGREEN_EDITOR Ver 2.6\EDUGREEN_EDITOR.rc"" 
+Creating temporary file "C:\Users\Ina\AppData\Local\Temp\RSP2CF8.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/EDUGREEN_EDITOR.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Ina\Desktop\C언어 프로젝트\EDUGREEN_EDITOR Ver 2.6\DlgProxy.cpp"
+"C:\Users\Ina\Desktop\C언어 프로젝트\EDUGREEN_EDITOR Ver 2.6\EDUGREEN_EDITOR.cpp"
+"C:\Users\Ina\Desktop\C언어 프로젝트\EDUGREEN_EDITOR Ver 2.6\EDUGREEN_EDITORDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Ina\AppData\Local\Temp\RSP2CF8.tmp" 
+Creating temporary file "C:\Users\Ina\AppData\Local\Temp\RSP2D19.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/EDUGREEN_EDITOR.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Ina\Desktop\C언어 프로젝트\EDUGREEN_EDITOR Ver 2.6\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Ina\AppData\Local\Temp\RSP2D19.tmp" 
+Creating temporary file "C:\Users\Ina\AppData\Local\Temp\RSP2D29.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/EDUGREEN_EDITOR.pdb" /machine:I386 /out:"Release/EDUGREEN_EDITOR.exe" 
+".\Release\DlgProxy.obj"
+".\Release\EDUGREEN_EDITOR.obj"
+".\Release\EDUGREEN_EDITORDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\EDUGREEN_EDITOR.res"
+]
+Creating command line "link.exe @C:\Users\Ina\AppData\Local\Temp\RSP2D29.tmp"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\Users\Ina\Desktop\C언어 프로젝트\EDUGREEN_EDITOR Ver 2.6\EDUGREEN_EDITOR.odl
+EDUGREEN_EDITOR.odl
+Processing C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DlgProxy.cpp
+EDUGREEN_EDITOR.cpp
+EDUGREEN_EDITORDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+EDUGREEN_EDITOR.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

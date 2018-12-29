@@ -1,0 +1,234 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\EDUGREEN_EDITOR.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MSGBOX04.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 163, 53
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "EDUGREEN_EDITOR 정보"
+FONT 9, "굴림"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,13,14,20,21
+    LTEXT           "EDUGREEN_EDITOR Ver 1.0",IDC_STATIC,41,15,93,8,
+                    SS_NOPREFIX
+    LTEXT           " Copyright (C) 2018",IDC_STATIC,38,29,66,17
+    DEFPUSHBUTTON   "확인",IDOK,106,32,50,14,WS_GROUP
+END
+
+IDD_EDUGREEN_EDITOR_DIALOG DIALOGEX 0, 0, 509, 251
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Edugreen Editor"
+FONT 9, "맑은 고딕", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT5,20,27,279,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT1,20,67,279,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,20,94,279,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,20,122,279,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,20,148,279,58,ES_MULTILINE | ES_AUTOHSCROLL
+    PUSHBUTTON      "추가 (&A)",IDC_ADD,151,219,68,25
+    PUSHBUTTON      "저장(&S)",IDC_SAVE,231,218,68,26
+    LTEXT           "문제 타입 (chk, inp, line)",IDC_STATIC,20,56,212,10
+    LTEXT           "이미지 파일",IDC_STATIC,20,83,212,10
+    LTEXT           "정답",IDC_STATIC,20,110,212,10
+    LTEXT           "해설 내용",IDC_STATIC,20,136,212,10
+    LTEXT           "폴더 이름",IDC_STATIC,20,17,82,10
+    EDITTEXT        IDC_EDIT6,306,8,196,236,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    WS_DISABLED | WS_VSCROLL
+    LTEXT           "Ver 1.0",IDC_STATIC,20,233,37,11
+    PUSHBUTTON      "불러오기",IDC_BUTTON1,68,219,68,25,WS_DISABLED
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "EDUGREEN_EDITOR MFC 응용 프로그램\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "EDUGREEN_EDITOR\0"
+            VALUE "LegalCopyright", "Copyright (C) 2018\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "EDUGREEN_EDITOR.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "EDUGREEN_EDITOR 응용 프로그램\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 46
+    END
+
+    IDD_EDUGREEN_EDITOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 20
+        RIGHTMARGIN, 502
+        VERTGUIDE, 6
+        VERTGUIDE, 102
+        VERTGUIDE, 299
+        TOPMARGIN, 8
+        BOTTOMMARGIN, 244
+        HORZGUIDE, 40
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "res\\default1.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE 초기화에 실패하였습니다. OLE 라이브러리의 버전이 올바른지 확인하십시오."
+    IDS_ABOUTBOX            "EDUGREEN_EDITOR 정보(&A)..."
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\EDUGREEN_EDITOR.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

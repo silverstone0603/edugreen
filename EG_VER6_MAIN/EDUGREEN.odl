@@ -1,0 +1,42 @@
+// EDUGREEN.odl : type library source for EDUGREEN.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (EDUGREEN.tlb).
+
+[ uuid(B60E1E0F-6487-4B1E-8CD1-1A2C8531B24B), version(1.0) ]
+library EDUGREEN
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CEDUGREENDoc
+	
+	[ uuid(51A3A545-EE92-4420-AD98-5A50D1083BD9) ]
+	dispinterface IEDUGREEN
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CEDUGREENDlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CEDUGREENDlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CEDUGREENDoc
+	
+	[ uuid(999C926D-D965-4CBC-8A23-DC50176E1B05) ]
+	coclass EDUGREEN
+	{
+		[default] dispinterface IEDUGREEN;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

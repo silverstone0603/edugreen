@@ -1,0 +1,13 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\EDUGREEN_EDITOR.Application = EDUGREEN_EDITOR Application
+HKEY_CLASSES_ROOT\EDUGREEN_EDITOR.Application\CLSID = {B5092653-3848-4955-BDEF-971E2B79768F}
+
+HKEY_CLASSES_ROOT\CLSID\{B5092653-3848-4955-BDEF-971E2B79768F} = EDUGREEN_EDITOR Application
+HKEY_CLASSES_ROOT\CLSID\{B5092653-3848-4955-BDEF-971E2B79768F}\ProgId = EDUGREEN_EDITOR.Application
+HKEY_CLASSES_ROOT\CLSID\{B5092653-3848-4955-BDEF-971E2B79768F}\LocalServer32 = EDUGREEN_EDITOR.EXE

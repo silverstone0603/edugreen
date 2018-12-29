@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: EDUGREEN - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "NDEBUG" /tlb "Release\ofiles/EDUGREEN.tlb" /mktyplib203 /win32 "C:\Work\CPP\EG_VER6\EDUGREEN\EDUGREEN.odl""
+Creating command line "rc.exe /l 0x412 /fo"Release\ifiles/EDUGREEN.res" /i "Release\ofiles" /d "NDEBUG" "C:\Work\CPP\EG_VER6\EDUGREEN\EDUGREEN.rc"" 
+Creating temporary file "C:\Users\srtay\AppData\Local\Temp\RSPE5C5.tmp" with contents
+[
+/nologo /MT /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release\ifiles/EDUGREEN.pch" /Yu"stdafx.h" /Fo"Release\ifiles/" /Fd"Release\ifiles/" /FD /c 
+"C:\Work\CPP\EG_VER6\EDUGREEN\DlgProxy.cpp"
+"C:\Work\CPP\EG_VER6\EDUGREEN\EDUGREEN.cpp"
+"C:\Work\CPP\EG_VER6\EDUGREEN\EDUGREENDlg.cpp"
+"C:\Work\CPP\EG_VER6\EDUGREEN\egDyArray.cpp"
+"C:\Work\CPP\EG_VER6\EDUGREEN\egEduClass.cpp"
+"C:\Work\CPP\EG_VER6\EDUGREEN\egEduResult.cpp"
+"C:\Work\CPP\EG_VER6\EDUGREEN\egMainFnc.cpp"
+]
+Creating command line "cl.exe @C:\Users\srtay\AppData\Local\Temp\RSPE5C5.tmp" 
+Creating temporary file "C:\Users\srtay\AppData\Local\Temp\RSPE5C6.tmp" with contents
+[
+/nologo /MT /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release\ifiles/EDUGREEN.pch" /Yc"stdafx.h" /Fo"Release\ifiles/" /Fd"Release\ifiles/" /FD /c 
+"C:\Work\CPP\EG_VER6\EDUGREEN\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\srtay\AppData\Local\Temp\RSPE5C6.tmp" 
+Creating temporary file "C:\Users\srtay\AppData\Local\Temp\RSPE5C7.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release\ofiles/EDUGREEN.pdb" /machine:I386 /out:"Release\ofiles/EDUGREEN.exe" 
+.\Release\ifiles\DlgProxy.obj
+.\Release\ifiles\EDUGREEN.obj
+.\Release\ifiles\EDUGREENDlg.obj
+.\Release\ifiles\egDyArray.obj
+.\Release\ifiles\egEduClass.obj
+.\Release\ifiles\egEduResult.obj
+.\Release\ifiles\egMainFnc.obj
+.\Release\ifiles\StdAfx.obj
+.\Release\ifiles\EDUGREEN.res
+]
+Creating command line "link.exe @C:\Users\srtay\AppData\Local\Temp\RSPE5C7.tmp"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\Work\CPP\EG_VER6\EDUGREEN\EDUGREEN.odl
+EDUGREEN.odl
+Processing C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DlgProxy.cpp
+EDUGREEN.cpp
+EDUGREENDlg.cpp
+egDyArray.cpp
+egEduClass.cpp
+egEduResult.cpp
+egMainFnc.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+EDUGREEN.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
